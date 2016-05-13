@@ -5,12 +5,12 @@
 [![stack overflow][stackoverflow-badge]][stackoverflow-url]
 [![slack chat][slack-badge]][slack-url]
 
-For support questions please use [stack overflow][stackoverflow-url] or our [slack channel][slack-url]. For templating engine specific questions try the aforementioned channels, as well as the documentation for [consolidate.js](https://github.com/tj/consolidate.js) and your templating engine of choice.
+For support questions please use [stack overflow][stackoverflow-url] or our [slack channel][slack-url].
 
 ## Installation
 
 ```bash
-$ npm install metalsmith-layouts
+$ npm install https://github.com/superwolff/metalsmith-file-info-logger
 ```
 
 ## Example
@@ -53,3 +53,12 @@ Defaults to log the whole file info.
 
 specify a logger function.
 Defaults to ```console.log```
+
+## License
+
+LGPL
+
+[slack-badge]: https://img.shields.io/badge/Slack-Join%20Chat%20→-blue.svg
+[slack-url]: http://metalsmith-slack.herokuapp.com/
+[stackoverflow-badge]: https://img.shields.io/badge/stack%20overflow-%23metalsmith-red.svg
+[stackoverflow-url]: http://stackoverflow.com/questions/tagged/metalsmith
